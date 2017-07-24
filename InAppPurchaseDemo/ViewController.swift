@@ -81,7 +81,6 @@ class ViewController: UIViewController, SKPaymentTransactionObserver, SKProducts
         
         self.allproducts = response.products
         
-        var prod: SKProduct?
         for pro in response.products {
             print("------------------")
             print(pro.localizedDescription)
